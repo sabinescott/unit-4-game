@@ -1,0 +1,25 @@
+
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystalGame{
+    border:1px solid blue;
+    height:200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.crystalgame:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+}
+
+img{
+    width:50px;
+}
